@@ -15,7 +15,7 @@ mouseSobreIconos();
 
 function mostrarImagen(){
     const img = document.querySelector('.img');
-    img.setAttribute('src', '../imagen/anonimus.png')
+    img.setAttribute('src', 'imagen/anonimus.png')
 }
 function mostrarDato(variable) {
 
