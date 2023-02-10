@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="fontAwesone/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">
+    <title>CV Proyecto Final</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <img class="img"  alt="la foto">
+        <div>
+            <h1 id="nombre"></h1>
+            <h2 id="apellido"></h2>
+            <p id="certificado"></p>
+        </div>
+        <div class="anclas">
+            <a href="#acerca">Acerca de Mi</a><br>
+            <a href="#exp">Experiencia</a><br>
+            <a href="#educ">Educacion</a><br>
+            <a href="#hab">Habilidades</a><br>
+            <a href="#cont">Contactos</a>
+        </div>
+    </header>
+    <a name="acerca"></a>
+    <Section class="seccion">
+        <h2>Acerca de Mi</h2>
+        <hr>
+        <p id="acercaDeMi"></p>
+
+    </Section>
+    <a name="exp"></a>
+    <Section class="seccion ">
+        <h2>Experiencia</h2>
+        <hr>
+        <ul id="experiencia"></ul>
+    </Section>
+    <a name="educ"></a>
+    <Section class="seccion">
+        <h2>Educacion</h2>
+        <hr>
+        <ul id="educacion"></ul>
+
+    </Section>
+
+    <a name="hab"></a>
+    <Section class="seccion">
+        <h2>Habilidades</h2>
+        <hr>
+
+        <ul>
+            <li>Html</li>
+            <progress id="progreso"></progress>
+            <li>Css</li>
+            <progress id="progreso"></progress>
+            <li>Javascript</li>
+            <progress id="progreso"></progress>
+            <li>Java</li>
+            <progress id="progreso"></progress>
+            <li>Ruby</li>
+            <progress id="progreso"></progress>
+        </ul>
+    </Section>
+    <a name="cont"></a>
+    <Section class="seccion">
+        <h2>Contactos</h2>
+        <hr>
+        <p class="contacto"></p>
+        <div class="icons">
+            <i class="fa-solid fa-phone" id="icono"></i>
+            <i class="fa-regular fa-envelope" id="icono"></i>
+            <i class="fa-brands fa-twitter" id="icono"></i>
+            <i class="fa-brands fa-linkedin" id="icono"></i>
+            <i class="fa-brands fa-whatsapp" id="icono"></i>
+
+        </div>
+
+    </Section>
+    <script type="module" src="./scrips/codigo.js"></script>
+</body>
+
+</html>

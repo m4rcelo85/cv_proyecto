@@ -1,0 +1,38 @@
+{
+    "nombre": "Anonimo",
+    "apellido": "Anonymous",
+    "certificado": "Programacion Web",
+    "acercaDeMi": "1)Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia nam quibusdam iste ducimus",
+    "experiencia": [
+        {
+            "actual": "1)Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia nam quibusdam iste ducimus",
+            "anterior": "2)Lorem, ipsum dolor sit amet consect",
+            "primer": "3)Lorem, ipsum dolor sit"
+            
+        }
+    ],
+    "educacion": [
+        {
+            "primer": "1)Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia nam quibusdam iste ducimus",
+            "segundo": "2)Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia nam quibusdam iste ducimus"
+        }
+    ],
+    "habilidades": [
+        {
+            "html": 90,
+            "css": 75,
+            "javascript": 45,
+            "java":60,
+            "ruby":50
+        }
+    ],
+    "contactos": [
+        {
+            "telefono": "0261 222 2222",
+            "mail": "ejemplo@gmail.com",
+            "twitter": "@ejemplo",
+            "linkedIn": "ejemplo@linkedIn",
+            "whatsapp": "0261 333 3333"
+        }
+    ]
+}
