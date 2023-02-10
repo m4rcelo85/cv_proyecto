@@ -3,7 +3,7 @@ import persona from '../JSON/data.json' assert {type: 'json'};
 console.log(persona);
 
 
-mostrarImagen();
+//mostrarImagen();
 mostrarDato('nombre');
 mostrarDato('apellido');
 mostrarDato('certificado');
@@ -12,11 +12,11 @@ experienciaYeducacion('experiencia')
 experienciaYeducacion('educacion')
 habilidades();
 mouseSobreIconos();
-
+/*
 function mostrarImagen(){
     const img = document.querySelector('.img');
     img.setAttribute('src', '../../../imagen/anonimus.png')
-}
+} */
 function mostrarDato(variable) {
 
     document.getElementById(variable).innerHTML = persona[variable];
